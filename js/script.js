@@ -42,14 +42,14 @@ console.log(++incr);
 console.log(--decr);
 
 
-console.log(2*4 === 8);
+console.log(2 + 2 * 2 === 8);
 
 
 // Логические операторы
 // && // И
 // || // ИЛИ
-
+// ! // отрицание
 const isChecked = true,
       isClose = false;
 // console.log(isChecked && isClose);
-console.log(isChecked || isClose);
+console.log(isChecked || !isClose);
